@@ -1,2 +1,2 @@
-cryptography
-ecdsa
+cryptography==46.0.5
+ecdsa==0.19.2
