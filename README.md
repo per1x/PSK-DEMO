@@ -22,7 +22,7 @@
 
 ## 运行环境
 
-- Python 3.12+
+- Python 3.10+
 - OpenSSL 动态库可用
 - 依赖包见 `requirements.txt`
 
@@ -32,6 +32,14 @@
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
+```
+
+如果你本地安装了 Python 3.10，也可以直接这样创建环境：
+
+```bash
+python3.10 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 ## 运行演示
